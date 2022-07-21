@@ -3,6 +3,7 @@ from datetime import date
 import pandas as pd
 import requests
 
+#Note that you will need to set up an applet on IFTTT.com for this!
 ifttt_webhooks_url = "https://maker.ifttt.com/trigger/{}/with/key/{your key}"
 items = []
 
