@@ -7,4 +7,4 @@
  The second programme (useby_alert_ifttt.py) checks through the database, and if an item's "use-by" date is within 5 days of today's date, will send a message (using webhooks and Telegram via IFTTT) to let you know. This can be set up to run automatically once per day using Windows Task Scheduler (unsure about other OSes, sorry!)
  Note that you will need to set up your own applet on IFTTT.com for this!
 
- Required libraries: csv, datetime, pandas, requests, tkinter, tkcalendar.
+ Required libraries: csv, datetime, pandas, requests, tkinter, tkcalendar. 
