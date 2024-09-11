@@ -34,4 +34,6 @@ jobs:
           kosli attest sonar
             --dry-run
             --name=sonar-attest
+            --sonar-project-key=FayeSGW_Freezer_Tracker
+            --sonar-revision=$GITHUB_SHA
     
