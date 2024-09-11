@@ -8,7 +8,7 @@ on:
     types: [opened]
   
 env:
-    KOSLI_FLOW: sonarcloud_CLI_test
+    KOSLI_FLOW: sonarcloud-CLI-test
     KOSLI_TRAIL: ${{ github.sha }}
     KOSLI_HOST: https://staging.app.kosli.com
     KOSLI_ORG: FayeSGW
