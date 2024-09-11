@@ -16,8 +16,17 @@ env:
     KOSLI_SONAR_API_TOKEN: ${{ secrets.SONAR_TOKEN }}
   
 jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4.1.1
+        with:
+          fetch-depth: 1
+
+
   sonarcloud:
     name: SonarCloud
+    needs: setup
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
